@@ -21,14 +21,15 @@
     "sqlite3": "^5.1.2",
     "uuid": "^9.0.0"
   },
+  "proxy": "http://localhost:4000/",
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vishnuvamsipilla/appforbadhaan.git"
+    "url": "git+https://github.com/vishnuvamsipilla/authenticationnsvv.git"
   },
   "bugs": {
-    "url": "https://github.com/vishnuvamsipilla/appforbadhaan/issues"
+    "url": "https://github.com/vishnuvamsipilla/authenticationnsvv/issues"
   },
-  "homepage": "https://github.com/vishnuvamsipilla/appforbadhaan#readme",
+  "homepage": "https://github.com/vishnuvamsipilla/authenticationnsvv#readme",
   "description": ""
 }

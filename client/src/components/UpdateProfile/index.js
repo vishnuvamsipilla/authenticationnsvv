@@ -22,7 +22,7 @@ const UpdateProfile = () => {
     history("/login");
   }
   const getUserDetails = async () => {
-    const url = "http://localhost:4000/updateprofile";
+    const url = "/updateprofile";
     const options = {
       method: "PUT",
       headers: {
