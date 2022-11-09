@@ -4,15 +4,13 @@ const sqlite3 = require("sqlite3");
 const path = require("path");
 const cors = require("cors");
 const bcrypt = require("bcrypt");
-const helmet = require("helmet");
+
 const jwtToken = require("jsonwebtoken");
 const nodemailer = require("nodemailer");
 const uuid = require("uuid");
 const uuidv4 = uuid.v4;
 
 const app = express();
-
-app.use(helmet());
 
 const whitelist = [
   "http://localhost:3000",
